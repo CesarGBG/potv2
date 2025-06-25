@@ -34,7 +34,7 @@ st.markdown(
 )
 
 # Imagen de perfil
-image_url = "https://raw.githubusercontent.com/CesarGBG/portafoliocesar/1471126e65e63d9de60734cffd6d9893fe28bfb0/foto.jpg"
+image_url = "https://github.com/CesarGBG/potv2/blob/main/foto.jpg.jpg"
 imagen = Image.open(urlopen(image_url))
 st.image(imagen, caption="César Bueno", use_column_width=True)
 
